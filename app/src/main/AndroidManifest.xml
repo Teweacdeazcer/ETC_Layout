@@ -13,6 +13,24 @@
         android:theme="@style/Theme.ETC_Layout"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GridLayout1"
+            android:exported="false" />
+        <activity
+            android:name=".TableLayout1"
+            android:exported="false" />
+        <activity
+            android:name=".GridDir05_5"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Relative3Activity"
             android:exported="true">
             <intent-filter>
@@ -31,7 +49,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Relative4Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
